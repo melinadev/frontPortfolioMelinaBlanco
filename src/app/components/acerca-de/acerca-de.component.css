@@ -1,0 +1,33 @@
+.row{
+    padding-top:20px;
+}
+img{
+    padding-left: 20px;
+}
+
+#nombre{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10%;
+    margin-left: 20px;
+}
+
+#fotoPerfil{
+    width: 13rem;
+    margin-top: -8rem;
+    border-radius: 100%;
+    box-shadow: 3px 3px 3px grey;
+}
+
+/*Foto dr perfil conjquery para limitar tamaño de imagen segun tamaño de pantalla*/
+@media (min-width: 576px){
+    #fotoPerfil{
+        position: relative;
+        /*width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 3%;
+        top:700px;*/
+        margin-top: -8rem;
+    }
+}

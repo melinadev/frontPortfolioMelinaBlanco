@@ -1,0 +1,11 @@
+<div class="row">
+    <h2>Hard And Soft Skills</h2>
+
+    <div class="text-center" style="display:flex; flex-direction:row; flex-wrap:wrap;">
+
+        <div *ngFor="let skill of skills" style="display: flex; flex-direction:column; align-items:center">
+            <app-skill-view [skill]="skill" [logged]="isLogged"></app-skill-view>
+        </div>
+
+    </div>
+</div>

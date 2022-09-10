@@ -1,0 +1,22 @@
+.container-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+.redes{
+    margin-right: 0.5em;
+}
+#logoAP{
+    width: 140px;
+}
+
+img{
+    width: 30px;
+    margin:0 4px;
+}
+
+.btn{
+    border-width: medium;
+}
+
+

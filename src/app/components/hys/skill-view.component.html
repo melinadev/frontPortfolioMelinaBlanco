@@ -1,0 +1,16 @@
+<div class="progress blue">
+    <span class="progress-left">
+        <span class="progress-bar"></span>
+    </span>
+    <span class="progress-right">
+        <span class="progress-bar"></span>
+    </span>
+    <div class="progress-value">
+        <span class="span-skill">{{skill.name}}</span>
+        <span class="span-skill">{{skill.percentage}}%</span>
+    </div>             
+      
+</div>
+<button type="button" class="btn btn-dark" style="width: fit-content;" routerLink="/editskills/{{skill.id}}" *ngIf="logged">
+    Actualizar
+</button>
